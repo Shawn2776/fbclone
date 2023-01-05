@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.topdiv {
+  display: flex;
+}
+
+.leftdiv {
+  width: 30%;
+}
+
+.middlediv {
+  width: 40%;
+}
+
+.rightdiv {
+  width: 30;
+}
+
+.branding__colors {
+  display: flex;
+}
+
+.branding__colors__color1 {
+  width: 25px;
+  border: 10px solid #98002E;
+  background-color: #98002E;
+  margin-right: 5px;
+}
+.branding__colors__color2 {
+  width: 25px;
+  border: 10px solid #999;
+  background-color: #999;
+  margin-right: 5px;
+}
+.branding__colors__color3 {
+  width: 25px;
+  border: 10px solid #000;
+  background-color: #000;
+  margin-right: 5px;
+}
+.branding__colors__color4 {
+  width: 25px;
+  border: 10px solid #ffbf00;
+  background-color: #ffbf00;
+  margin-right: 5px;
+}
+
+.branding__colors__text {
+  margin-right: 15px;
+}

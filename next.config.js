@@ -6,6 +6,7 @@ const nextConfig = {
       "upload.wikimedia.org",
       "avatars.dicebear.com",
       "images.pexels.com",
+      "www.pexels.com",
       "platform-lookaside.fbsbx.com",
       "static.xx.fbcdn.net",
     ],

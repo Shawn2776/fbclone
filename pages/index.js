@@ -4,6 +4,8 @@ import Sidebar from "../components/Sidebar";
 import { getSession } from "next-auth/react";
 import Login from "../components/Login";
 import Header from "../components/Header";
+import Feed from "../components/Feed";
+import RightSidebar from "../components/RightSidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +25,9 @@ export default function Home({ session }) {
         {/* Left Sidebar */}
         <Sidebar />
         {/* Feed */}
+        <Feed />
         {/* Right Sidebar*/}
+        <RightSidebar />
       </main>
     </>
   );
